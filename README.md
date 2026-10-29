@@ -91,3 +91,9 @@ curl -X POST https://uber-wrapped.up.railway.app/api/insights \
   -d '{"totalSpend":5895,"currency":"USD","totalRides":146,"totalDistanceMiles":1703,"dateRangeLabel":"2023","topCity":"San Francisco","distinctCityCount":5,"avgFare":40,"mostExpensiveFare":145,"canceledRides":14,"lateNightRides":31,"busiestDayOfWeek":"Sunday","favoriteTimeOfDay":"Morning","comparisons":[]}'
 # -> {"roasts":[...],"status":"ok"}  (or {"roasts":[],"status":"fallback"} if no key)
 ```
+
+## License
+
+The application is available under the [MIT License](LICENSE). The backend's
+existing ISC license declaration in `server/package.json` remains unchanged.
+Third-party dependencies retain their respective licenses.
